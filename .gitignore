@@ -1,3 +1,12 @@
 .env
 District*/
 *.csv
+testing*/
+resource_scripts/
+pdfs/
+*.pdf
+*.docx
+*.doc
+*.xlsx
+*.ipynb
+DS_Store
