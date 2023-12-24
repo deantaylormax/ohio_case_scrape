@@ -9,4 +9,4 @@ pdfs/
 *.doc
 *.xlsx
 *.ipynb
-DS_Store
+.DS_Store
