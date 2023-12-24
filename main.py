@@ -8,7 +8,12 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 import streamlit as st
 load_dotenv()
 
-st.title("Legal Case Search")
+#add two columns here of equal width
+col1, col2 = st.columns([2, 1])
+with col1:
+    st.title("Legal Case Search")
+with col2:
+    st.image("logo_old.png", width=100)
 
 def initialize_clients():
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
